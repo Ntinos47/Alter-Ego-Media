@@ -1,10 +1,10 @@
 @font-face {
     font-family: Cera-header;
-    src: url(/fonts/CeraPro-Regular.woff2);
+    src: url(fonts/CeraPro-Regular.woff2);
 }
 @font-face {
     font-family: Cera-semibold;
-    src: url(/fonts/CeraPro-Medium.woff2);
+    src: url(fonts/CeraPro-Medium.woff2);
 }
 
 
