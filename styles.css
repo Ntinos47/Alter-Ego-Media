@@ -262,7 +262,7 @@
         flex-direction: column;
     }
 }
-@media (max-width: 370px) {
+@media (max-width: 380px) {
     .wrap-header-text {
         margin-top: 20px;
         max-width: 370px;
@@ -278,7 +278,7 @@
         margin: 40px 30px 15px 40px;
     }
 }
-@media (max-width: 350px) {
+@media (max-width: 362px) {
     .header-text {
         font-size: 28px;
         line-height: 40px;
