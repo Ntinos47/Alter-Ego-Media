@@ -7,6 +7,10 @@
     font-family: Cera-normal;
     src: url(fonts/CeraPro-Regular.woff);
 }
+@font-face {
+    font-family: Cera-bold;
+    src: url(fonts/CeraPro-Bold.woff2);
+}
 
 
 *{
@@ -25,7 +29,6 @@
     justify-content: end;
     align-items: center;
     list-style-type: none;
-    font-family: 'Cera-semibold';
     font-size: 25px;
     margin: -40px 50px 0 0;
 }
@@ -103,7 +106,7 @@
 .header-text {
     width: 100%;
     font-size: 52px;
-    font-family: 'Cera-normal';
+    font-family: 'Cera-bold';
     line-height: 55px;
 }
 
@@ -121,8 +124,10 @@
 }
 .logos-section .logos-container .logo-wrap-inner {
     width: auto;
-    max-width: 120px;
+    max-width: 150px;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
 }
 .big {
     max-width: 50px;
@@ -227,8 +232,9 @@
 }
 .text-wrap {
     padding: 15px;
-    font-family: 'Cera-normal';
+    font-family: 'Cera-semibold';
     font-Size: 25px;
+    line-height: 30px;
 }
 .more {
     text-align: center;
@@ -329,21 +335,22 @@ a:hover {
     .wrap-news-section {
         padding: 0;
     }
-    .container {
-        margin-top: 20px;
-    }
     .wrap-container {
         margin: 30px 0 40px 0;
     }
+    .container {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .wrap-img {
-        margin: 0 5px;
+        width: 310px;
+        margin: 5px 30px;
     }
     .wrap-omilos {
         padding: 0 20px;
         margin-bottom: 100px;
-    }
-    .map-container {
-        padding: 0 20px;
     }
 }
 @media (max-width: 580px) {
@@ -358,10 +365,7 @@ a:hover {
         flex-direction: column;
         align-items: start;
     }
-    .address {
-        font-size: 25px;
-    }
-    .map-title, .career-title {
+    .career-title {
         font-size: 45px;
     }
     .wrap-footer-img {
@@ -403,6 +407,26 @@ a:hover {
     .content {
         font-size: 25px;
         line-height: 30px;
+    }
+    .wrap-about {
+        margin-top: 40px;
+    }
+
+    .wrap-finances-title {
+        font-size: 60px;
+    }
+    .wrap-finances {
+        padding: 40px 10px 50px 10px;
+    }
+    .categories {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .wrap-cat {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        padding-top: 30px;
     }
 }
 @media (max-width: 445px) {
