@@ -98,7 +98,7 @@
 }
 
 .wrap-header-text {
-    margin-top: 60px;
+    margin-top: 100px;
     color: white;
     max-width: 950px;
     padding: 7% 0px 0px 8%;
@@ -125,7 +125,6 @@
 .logos-section .logos-container .logo-wrap-inner {
     width: auto;
     max-width: 150px;
-    margin-bottom: 5px;
     display: flex;
     justify-content: center;
 }
@@ -149,12 +148,33 @@
     justify-content: center;
 }
 .wrap-img {
+    transition: all .3s;
+    max-width: 450px;
     width: 450px;
     height:auto;
     margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
 }
-.img {
+.wrap-img img {
     width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.wrap-img:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+.logo {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.smaller {
+    max-width: 80px
 }
 
 
@@ -308,6 +328,15 @@ a:hover {
 
 
 
+
+@media (max-width: 1023px) {
+    .logos-section .logos-container {
+        height: 270px;
+    }
+    .logo-wrap-inner {
+        margin-top: 20px;
+    }
+}
 @media (max-width: 880px) {
     .a-replace {
         display: block;
@@ -319,10 +348,43 @@ a:hover {
     .dropdown-content a {
       padding: 10px 12px;
     }
+    .wrap-articles {
+        padding: 60px 10px;
+    }
+    .articles {
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrap-art {
+        margin-bottom: 20px;
+    }
+    .img-wrap {
+        width: 100%;
+        height: 550px;
+    }
+    .more {
+        margin-top: 10px;
+    }
+    .wrap-finances-title {
+        font-size: 60px;
+    }
+    .wrap-finances {
+        padding: 40px 10px 50px 10px;
+    }
+    .categories {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .wrap-cat {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        padding-top: 30px;
+    }
 }
 @media (max-width: 785px) {
     .wrap-header-text {
-        margin-top: 40px;
+        margin-top: 100px;
         max-width: 500px;
     }
     .header-text {
@@ -354,6 +416,9 @@ a:hover {
     }
 }
 @media (max-width: 580px) {
+    .wrap-header-text {
+        margin-top: 160px;
+    }
     .wrap-logo {
         margin-left: 20px;
     }
@@ -402,7 +467,7 @@ a:hover {
         margin: 100px 0 100px 0;
     }
     .logos-section .logos-container {
-        height: 160px;
+        height: 250px;
     }
     .content {
         font-size: 25px;
@@ -412,31 +477,14 @@ a:hover {
         margin-top: 40px;
     }
 
-    .wrap-finances-title {
-        font-size: 60px;
-    }
-    .wrap-finances {
-        padding: 40px 10px 50px 10px;
-    }
-    .categories {
-        padding-top: 20px;
-        flex-direction: column;
-    }
-    .wrap-cat {
-        width: 100%;
-        height: auto;
-        font-size: 30px;
-        padding-top: 30px;
-    }
 }
 @media (max-width: 445px) {
     .wrap-header-text {
-        margin-top: 100px;
         max-width: 400px;
         padding: 20px;
     }
     .header-text {
-        font-size: 35px;
+        font-size: 32px;
         line-height: 45px;
     }
     .link {
@@ -445,11 +493,10 @@ a:hover {
 }
 @media (max-width: 406px) {
     .wrap-header-text {
-        margin-top: 20px;
         max-width: 370px;
     }
     .header-text {
-        font-size: 32px;
+        font-size: 28px;
         line-height: 45px;
     }
     .link {
@@ -463,7 +510,6 @@ a:hover {
 }
 @media (max-width: 380px) {
     .wrap-header-text {
-        margin-top: 20px;
         max-width: 370px;
     }
     .header-text {
