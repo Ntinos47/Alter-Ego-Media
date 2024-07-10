@@ -37,6 +37,9 @@
     color: white;
     text-decoration: none;
 }
+.wrap-a a:hover {
+    text-decoration: underline;
+}
 .a-replace {
     display: none;
 }
@@ -167,6 +170,9 @@
 .wrap-img:hover img {
     transform: scale(1.1); /* Scale up the image on hover */
 }
+.go-link {
+    display: contents;
+}
 .logo {
     max-width: 200px;
     width: 100%;
@@ -182,6 +188,7 @@
     max-width: 1200px;
     padding: 0 150px;
     margin: 150px 0 200px 0;
+    color: black;
 }
 
 .content {
@@ -227,6 +234,7 @@
     font-family: 'Cera-semibold';
     line-height: 35.2px;
     margin: 50px 0 15px 72px;
+    color: black;
 }
 
 
@@ -255,12 +263,14 @@
     font-family: 'Cera-semibold';
     font-Size: 25px;
     line-height: 30px;
+    color: black;
 }
 .more {
     text-align: center;
     margin-top: 50px;
     font-size: 40px;
     font-family: 'Cera-semibold';
+    color: black;
 }
 
 
@@ -302,6 +312,7 @@
     font-family: 'Cera-normal';
     font-weight: 900;
     margin-bottom: 40px;
+    color: black;
 }
 .wrap-stats{
     display: flex;
@@ -328,13 +339,78 @@ a:hover {
 
 
 
-
-@media (max-width: 1023px) {
+@media (max-width: 1500px) {
+    .logo {
+        max-width: 180px;
+    }
+    .smaller {
+        max-width: 60px;
+    }
+}
+@media (max-width: 1280px) {
+    .logo {
+        max-width: 140px;
+    }
+    .smaller {
+        max-width: 60px;
+    }
+    .wrap-articles {
+        padding: 60px 30px;
+    }
+    .articles {
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrap-art {
+        margin-bottom: 20px;
+    }
+    .img-wrap {
+        width: 100%;
+        height: 600px;
+    }
+    .more {
+        margin-top: 10px;
+    }
+    .wrap-finances-title {
+        font-size: 60px;
+    }
+    .wrap-finances {
+        padding: 40px 20px 50px 20px;
+    }
+    .categories {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .wrap-cat {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+}
+@media (max-width: 1024px) {
     .logos-section .logos-container {
         height: 270px;
     }
     .logo-wrap-inner {
         margin-top: 20px;
+    }
+    .logo {
+        max-width: 120px;
+    }
+    .smaller {
+        max-width: 60px;
+    }
+    .wrap-report {
+        padding: 80px 20px 150px 20px;
+    }
+    .report-title {
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+    .report-subtitle {
+        font-size: 45px;
+        margin-bottom: 40px;
     }
 }
 @media (max-width: 880px) {
@@ -348,43 +424,17 @@ a:hover {
     .dropdown-content a {
       padding: 10px 12px;
     }
-    .wrap-articles {
-        padding: 60px 10px;
+    
+    .logo {
+        max-width: 100px;
     }
-    .articles {
-        flex-direction: column;
-        align-items: center;
-    }
-    .wrap-art {
-        margin-bottom: 20px;
-    }
-    .img-wrap {
-        width: 100%;
-        height: 550px;
-    }
-    .more {
-        margin-top: 10px;
-    }
-    .wrap-finances-title {
-        font-size: 60px;
-    }
-    .wrap-finances {
-        padding: 40px 10px 50px 10px;
-    }
-    .categories {
-        padding-top: 20px;
-        flex-direction: column;
-    }
-    .wrap-cat {
-        width: 100%;
-        height: auto;
-        font-size: 30px;
-        padding-top: 30px;
+    .smaller {
+        max-width: 50px;
     }
 }
 @media (max-width: 785px) {
     .wrap-header-text {
-        margin-top: 100px;
+        margin-top: 80px;
         max-width: 500px;
     }
     .header-text {
@@ -414,11 +464,22 @@ a:hover {
         padding: 0 20px;
         margin-bottom: 100px;
     }
+    .report-title {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    .report-subtitle {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .logo {
+        max-width: 190px;
+    }
+    .smaller {
+        max-width: 80px;
+    }
 }
 @media (max-width: 580px) {
-    .wrap-header-text {
-        margin-top: 160px;
-    }
     .wrap-logo {
         margin-left: 20px;
     }
@@ -448,7 +509,7 @@ a:hover {
         margin: -50px 20px 0 0;
     }
     .wrap-articles {
-        padding: 60px 10px;
+        padding: 60px 30px;
     }
     .articles {
         flex-direction: column;
@@ -476,7 +537,16 @@ a:hover {
     .wrap-about {
         margin-top: 40px;
     }
-
+    .stat {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .wrap-stats{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        
+    }
 }
 @media (max-width: 445px) {
     .wrap-header-text {
@@ -489,6 +559,9 @@ a:hover {
     }
     .link {
         font-size: 28px;
+    }
+    .wrap-articles {
+        padding: 60px 20px;
     }
 }
 @media (max-width: 406px) {
@@ -503,9 +576,11 @@ a:hover {
         font-size: 26px;
         margin-left: 0px;
     }
-
     .wrap-link {
         flex-direction: column;
+    }
+    .wrap-articles {
+        padding: 60px 10px;
     }
 }
 @media (max-width: 380px) {
