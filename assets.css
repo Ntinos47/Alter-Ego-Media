@@ -267,6 +267,14 @@
     max-width: 400px;
     height: auto;
 }
+.wrap-img-medium {
+    max-width: 300px;
+    height: auto;
+}
+.wrap-img-smaller {
+    max-width: 200px;
+    height: auto;
+}
 .assets-img {
     width: 100%;
 }
@@ -277,7 +285,15 @@ ul {
 .big-space {
     margin-top: 180px;
 }
-
+.top {
+    margin-top: 140px;
+}
+a {
+color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 900px) {
     .a-replace {
