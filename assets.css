@@ -154,8 +154,12 @@
 /***********************************************************/
 
 
-.wrap-content-boardcast, .wrap-content-publishing {
+.wrap-content-boardcast{
     padding: 130px 160px 100px 160px;
+}
+.wrap-content-publishing {
+    padding: 180px 160px 100px 160px;
+
 }
 .content-container {
     display: flex;
@@ -259,7 +263,6 @@
     color: rgb(69, 89, 240);
     font-weight: 600;
 }
-
 
 
 /***********************************************************/
@@ -383,6 +386,9 @@ a:hover {
     .art-content {
         font-size: 18px;
     }
+    .big-space {
+        margin-top: 100px;
+    }
 }
 @media (max-width: 600px) {
     .wrap-header-text {
@@ -396,6 +402,10 @@ a:hover {
     }
     .btn {
         font-size: 22px;
+    }
+
+    .top {
+        margin-top: 100px;
     }
 }
 @media (max-width: 470px) {
