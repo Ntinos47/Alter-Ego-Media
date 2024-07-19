@@ -240,6 +240,13 @@
     font-family: 'Cera-semibold';
     color: black;
 }
+.all-news {
+    color: black;
+}
+.all-news:hover {
+    color: black;
+    text-decoration: underline;
+}
 
 
 .wrap-finances {
@@ -378,6 +385,31 @@ a:hover {
     font-weight: 600;
 }
 
+
+
+
+@media (max-width: 1800px) {
+    .wrap-articles {
+        padding: 80px 20px;
+    }
+    .articles {
+        flex-direction: row;
+        align-items: center;
+    }
+    .wrap-art {
+        margin-bottom: 20px;
+    }
+    .responsive{
+        padding: 5px;
+    }
+    .img-wrap {
+        width: 100%;
+        height: 600px;
+    }
+    .more {
+        margin-top: 10px;
+    }
+}
 @media (max-width: 1500px) {
     .logo {
         max-width: 180px;
