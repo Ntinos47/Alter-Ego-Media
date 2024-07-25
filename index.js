@@ -6,10 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const publishingContent = document.getElementById('2nd');
     const contentContent = document.getElementById('3rd');
 
-    // Footer links
-    const footerBroadcast = document.getElementById('footer-broadcast');
-    const footerPublishing = document.getElementById('footer-publishing');
-    const footerContent = document.getElementById('footer-content');
+
 
     boardcastBtn.addEventListener('click', function() {
         boardcastContent.style.display = 'block';
@@ -37,6 +34,11 @@ document.addEventListener('DOMContentLoaded', function() {
         publishingBtn.classList.remove('active');
         contentBtn.classList.add('active');
     });
+
+    // Footer links
+    const footerBroadcast = document.getElementById('footer-broadcast');
+    const footerPublishing = document.getElementById('footer-publishing');
+    const footerContent = document.getElementById('footer-content');
 
     // Add functionality to footer links
     footerBroadcast.addEventListener('click', function() {
