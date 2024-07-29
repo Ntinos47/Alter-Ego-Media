@@ -182,6 +182,10 @@
     color: black;
     margin-left: 10px;
 }
+.link:hover {
+    text-decoration: underline;
+}
+
 
 
 .footer {

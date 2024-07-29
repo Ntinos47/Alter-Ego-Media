@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         boardcastBtn.classList.remove('active');
         publishingBtn.classList.remove('active');
         contentBtn.classList.add('active');
+
     });
 
     // Footer links
