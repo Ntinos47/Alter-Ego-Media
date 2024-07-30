@@ -122,7 +122,7 @@
 /********************************************************/
 
 .map-container {
-    padding: 0 200px;
+    padding: 80px 200px;
     color: black;
 }
 .wrap-map-title, .wrap-career-title {
@@ -146,7 +146,7 @@
 }
 
 .wrap-map-contact {
-    margin: 100px 0;
+    margin: 70px 0;
 }
 .text-wrap {
     margin-bottom: 20px;
@@ -287,9 +287,6 @@
     }
     .wrap-header-text {
         font-size: 60px;
-    }
-    .wrap-map-contact {
-        margin: 50px 0;
     }
 }
 @media (max-width: 360px) {
