@@ -405,15 +405,15 @@ a:hover {
     }
 
     .top {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 }
 @media (max-width: 470px) {
     .wrap-btn {
-        padding: 20px 10px 0px 10px;
+        padding: 20px 7px 0px 7px;
     }
     .wrap-content-boardcast, .wrap-content-publishing {
-        padding: 20px 20px;
+        padding: 40px 20px;
     }
     .btn {
         font-size: 20px;
@@ -421,6 +421,6 @@ a:hover {
 }
 @media (max-width: 390px) {
     .btn {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
